@@ -20,8 +20,17 @@ from .modules import discovery, portscan, report
 
 
 def _banner_inicial() -> None:
-    print("=" * 55)
-    print(" NetRecon - eu uso SOMENTE com autorizacao explicita")
+    # Banner ASCII pra dar cara de ferramenta de verdade.
+    banner = r"""
+ _   _      _   ____                      
+| \ | | ___| |_|  _ \ ___  ___ ___  _ __  
+|  \| |/ _ \ __| |_) / _ \/ __/ _ \| '_ \ 
+| |\  |  __/ |_|  _ <  __/ (_| (_) | | | |
+|_| \_|\___|\__|_| \_\___|\___\___/|_| |_|
+"""
+    print(banner)
+    print("      scanner de rede & recon  |  by Henry Silva")
+    print("   >> use SOMENTE com autorizacao explicita <<")
     print("=" * 55)
 
 
