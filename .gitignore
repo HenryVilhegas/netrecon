@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Relatorios gerados pela ferramenta
+relatorio_netrecon.md
+*.report.md
+reports/
+
+# Editores / SO
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
